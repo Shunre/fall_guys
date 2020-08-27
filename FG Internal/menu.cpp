@@ -635,8 +635,5 @@ namespace menu {
 	void update_indicators() {
 		auto text_size = draw_manager::calc_text_size(12, "TAKE");
 		auto y = float(15);
-
-		draw_manager::add_text_on_screen({ 5, y }, 0xFF232323, 17, "shunre1337");
-		y += text_size.y + 4.f;
 	}
 };
